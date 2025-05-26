@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Professional UI/UX design agency – from concept to launch. Discover our digital products and services.">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Digital</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo.png" alt="logo" />
+            <span>Digital</span>
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn" aria-expanded="false" aria-label="Toggle menu">
+          <i class="ri-menu-line"></i>
+        </div>
+
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Designer</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">News</a></li>
+      </ul>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h2>UI UX DESIGN AGENCY</h2>
+        <h1>
+          Make Digital<br /><span class="h1__span-1">Product</span>
+          <span class="h1__span-2">with our Agency</span>
+        </h1>
+        <p>
+          From concept to launch, our expert team is dedicated to delivering
+          exceptional solutions tailored to your needs. Let's bring your vision
+          to life and create something extraordinary together.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Learn More</button>
+        </div>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </li>
+        </ul>
+        <div class="header__bar">
+          Copyright © 2024 Web Design Mastery. All rights reserved.
+        </div>
+      </div>
+    </header>
+
+    <!---- Designer ------>
+    <section class="designer" id="designer">
+  <div class="container">
+    <h2>Our Designer Team</h2>
+    <p>Meet the creative minds who turn your ideas into reality.</p>
+    <div class="designer__cards">
+      <div class="card">
+        <img src="assets/Giulia Del Zoppo.jpeg" alt="Designer 1" />
+        <h3>Anna Smith</h3>
+        <p>UI/UX Specialist</p>
+      </div>
+      <div class="card">
+        <img src="assets/avatar13.jpg" alt="Designer 2" />
+        <h3>John Doe</h3>
+        <p>Graphic Designer</p>
+      </div>
+      <div class="card">
+        <img src="assets/Michella Manian.jpg" alt="Designer 3" />
+        <h3>Maria Garcia</h3>
+        <p>Product Designer</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!----- Features ------>
+  <section class="features" id="features">
+  <div class="container">
+    <h2>Our Features</h2>
+    <p>Discover what makes our agency stand out.</p>
+    <div class="features__grid">
+      <div class="feature__item">
+        <i class="ri-brush-line"></i>
+        <h3>Creative Design</h3>
+        <p>Innovative and user-friendly designs tailored to your brand.</p>
+      </div>
+      <div class="feature__item">
+        <i class="ri-speed-line"></i>
+        <h3>Fast Delivery</h3>
+        <p>We value your time and deliver quality projects on schedule.</p>
+      </div>
+      <div class="feature__item">
+        <i class="ri-customer-service-2-line"></i>
+        <h3>24/7 Support</h3>
+        <p>Our team is always ready to assist you, anytime you need.</p>
+      </div>
+      <div class="feature__item">
+        <i class="ri-shield-check-line"></i>
+        <h3>Secure Solutions</h3>
+        <p>We implement the best security practices to protect your data.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----- Portfolio ------>
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2>Our Portfolio</h2>
+
+    <div class="portfolio__filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Design</button>
+      <button class="filter-btn" data-filter="app">App Design</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+    </div>
+
+    <div class="portfolio__grid">
+      <div class="portfolio__item" data-category="web">
+        <img src="assets/project1.jpg" alt="Project 1" />
+        <h3>Website Redesign</h3>
+        <p>Modern and responsive website</p>
+      </div>
+      <div class="portfolio__item" data-category="app">
+        <img src="assets/project2.jpg" alt="Project 2" />
+        <h3>Mobile App UI</h3>
+        <p>Clean and intuitive interface</p>
+      </div>
+      <div class="portfolio__item" data-category="branding">
+        <img src="assets/project3.jpg" alt="Project 3" />
+        <h3>Brand Identity</h3>
+        <p>Logo and branding package</p>
+      </div>
+      <div class="portfolio__item" data-category="web">
+        <img src="assets/project4.jpg" alt="Project 4" />
+        <h3>eCommerce Website</h3>
+        <p>Fast and secure online store</p>
+      </div>
+      <!-- Adaugă câte proiecte vrei -->
+    </div>
+  </div>
+</section>
+
+<!----  Skills ------>
+<section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <div class="skill">
+    <span>HTML</span>
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 90%"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <span>CSS</span>
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 85%"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 80%"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <span>React</span>
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 75%"></div>
+    </div>
+  </div>
+</section>
+<!----- 1. Testimoniale ------>
+
+<section class="testimonials">
+  <h2>Păreri de la clienți</h2>
+  <div class="testimonial__wrapper">
+    <div class="testimonial__card">
+      <p>"Un adevărat profesionist! Rapid și cu atenție la detalii."</p>
+      <div class="testimonial__info">
+        <img src="assets/Anna.jpg" alt="client" />
+        <h4>Anna Popescu</h4>
+        <span>Designer</span>
+      </div>
+    </div>
+    <div class="testimonial__card">
+      <p>"Mi-a transformat ideile într-un site perfect!"</p>
+      <div class="testimonial__info">
+        <img src="assets/Andrei.png" alt="client" />
+        <h4>Andrei Ionescu</h4>
+        <span>Antreprenor</span>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="testimonial__wrapper">
+    <div class="testimonial__card">
+      <p>"Servicii excelente, comunicare rapidă și rezultate wow!"</p>
+      <div class="testimonial__info">
+        <img src="assets/Maria.jpg" alt="client" />
+        <h4>Maria Popescu</h4>
+        <span>Antreprenor</span>
+      </div>
+    </div>
+    <div class="testimonial__card">
+      <p>"Un adevărat profesionist. Recomand cu încredere!"</p>
+      <div class="testimonial__info">
+        <img src="assets/George.png" alt="client" />
+        <h4>George Ionescu</h4>
+        <span>Web Developer</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------ News ------>
+<section class="news" id="news">
+  <div class="container">
+    <h2>Latest News</h2>
+    <p>Stay updated with our latest projects and industry insights.</p>
+    <div class="news__grid">
+      <article class="news__item">
+        <img src="assets/news1.jpg" alt="News 1" />
+        <div class="news__content">
+          <h3>Launching Our New Website</h3>
+          <p>We just launched a new, modern website for a leading tech client.</p>
+          <a href="#" class="btn-news">Read More</a>
+        </div>
+      </article>
+      <article class="news__item">
+        <img src="assets/news2.jpg" alt="News 2" />
+        <div class="news__content">
+          <h3>Industry Trends 2024</h3>
+          <p>Explore the latest trends in UI/UX design for 2024.</p>
+          <a href="#" class="btn-news">Read More</a>
+        </div>
+      </article>
+      <article class="news__item">
+        <img src="assets/news3.jpg" alt="News 3" />
+        <div class="news__content">
+          <h3>Tips for Better User Experience</h3>
+          <p>How to improve your website’s UX with simple changes.</p>
+          <a href="#" class="btn-news">Read More</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!----- Testimonials ------>
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials__wrapper">
+      <div class="testimonial">
+        <img src="assets/Anna.jpg" width="200" alt="client" />
+        <p>"Amazing work! The team transformed our ideas into a stunning reality."</p>
+        <h4>- Ana Popescu</h4>
+      </div>
+      <div class="testimonial">
+        <img src="assets/George.png" width="200" alt="client" />
+        <p>"Highly professional and creative. Delivered on time and beyond expectations."</p>
+        <h4>- George Ionescu</h4>
+      </div>
+      <div class="testimonial">
+        <img src="assets/Learh Brown.jpg" width="200" alt="client" />
+        <p>"Best UI/UX agency we've worked with. Definitely recommended."</p>
+        <h4>- Elena Georgescu</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------- Timeline – Experiență ------->
+<section class="timeline">
+  <h2>Experiența mea</h2>
+  <div class="timeline__wrapper">
+    <div class="timeline__item">
+      <h3>2023 - Freelance Developer</h3>
+      <p>Am lucrat cu clienți din diverse domenii pentru site-uri responsive și moderne.</p>
+    </div>
+    <div class="timeline__item">
+      <h3>2022 - Internship Web Design</h3>
+      <p>Am învățat principii UI/UX și am colaborat la proiecte reale în echipă.</p>
+    </div>
+    <div class="timeline__item">
+      <h3>2021 - Curs HTML/CSS/JavaScript</h3>
+      <p>Baze solide în dezvoltare web, structuri moderne și interactivitate JS.</p>
+    </div>
+  </div>
+</section>
+
+<!------ Contact ------->
+<section class="contact section" id="contact">
+  <div class="container">
+    <h2 class="section__title">Contactează-mă</h2>
+    <p class="section__subtitle">Ai un proiect? Hai să discutăm!</p>
+
+    <form class="contact__form" action="mailto:exemplu@email.com" method="post" enctype="text/plain">
+      <div class="form__group">
+        <input type="text" name="name" placeholder="Numele tău" required />
+        <input type="email" name="email" placeholder="Emailul tău" required />
+      </div>
+      <textarea name="message" rows="6" placeholder="Mesajul tău" required></textarea>
+      <button type="submit" class="btn">Trimite mesajul</button>
+    </form>
+  </div>
+</section>
+
+<!----- footer ------>
+<footer class="footer">
+  <div class="footer__content">
+    <div class="footer__socials">
+      <a href="#" aria-label="Facebook"><i class="ri-facebook-circle-fill"></i></a>
+      <a href="#" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+      <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+    </div>
+    <div class="footer__map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.1234567890!2d-79.38318468487368!3d43.65322617912188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d019b2399f%3A0x59a327c54c7a987a!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sro!4v1234567890123!5m2!1sen!2sro"
+        width="100%"
+        height="200"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+  <div class="footer__copyright">
+    &copy; 2024 Web Design Mastery. All rights reserved.
+  </div>
+</footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
